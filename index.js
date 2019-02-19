@@ -9,7 +9,8 @@ function theBeatlesPlay(mus, inst) {
 }
 
 function johnLennonFacts(arr) {
-  while (arr) {
+  var i = 0;
+  while (i < arr.length) {
     console.log(arr + '!!!');
   }
   return arr;
